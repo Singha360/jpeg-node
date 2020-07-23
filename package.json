@@ -1,0 +1,17 @@
+{
+  "name": "jpeg-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^14.0.23"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./build/index.js ./sample/encimg.jpg",
+    "help": "node ./build/index.js -h"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

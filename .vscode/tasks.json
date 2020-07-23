@@ -1,0 +1,59 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "tsc",
+			"presentation": {
+				"echo": false,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "help",
+			"problemMatcher": [],
+			"label": "npm: help",
+			"detail": "node ./build/index.js -h",
+			"group": "test",
+			"presentation": {
+				"echo": false,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "node ./build/index.js ./sample/encimg.jpg",
+			"presentation": {
+				"echo": false,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
+			}
+		}
+	]
+}

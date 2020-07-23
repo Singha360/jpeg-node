@@ -1,0 +1,3 @@
+// decalre interface {
+
+// }
