@@ -1,5 +1,5 @@
 import { Decoder } from "./src/decoder"; // This can be wrriten as so: const {Decoder} = require("./src/decoder")
-import { isValidFilename(filename) } from "./src/utility";
+import { isValidFilename } from "./src/utility";
 
 const [arg] = process.argv.slice(2);
 
